@@ -79,6 +79,7 @@ class HomeView extends StatelessWidget {
                       ],
                     ),
                   ),
+                  const SizedBox(height: 12),
                   SearchWidget(read: read).symmetricPadding(horizontal: 20),
                   ListView.separated(
                     shrinkWrap: true,
